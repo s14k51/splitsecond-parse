@@ -1,0 +1,31 @@
+{
+  "name": "@splitsecond/parse",
+  "description": "Parses a datetime string and returns the parsed string or an empty string if it not parsable",
+  "version": "1.0.0",
+  "main": "src/parse.js",
+  "license": "MIT",
+  "author": "s14k51 <s14k51@gmail.com>",
+  "keywords": [
+    "date",
+    "time",
+    "parse",
+    "format"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/s14k51/splitsecond-parse",
+  "bugs": {
+    "url": "https://github.com/s14k51/splitsecond-parse/issues"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "eslint": "^6.8.0",
+    "eslint-config-ruby": "^1.0.0",
+    "jest": "^25.2.0"
+  }
+}
